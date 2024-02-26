@@ -2,7 +2,6 @@
 session_start();
 
 if (!empty($_POST)) {
-
    $title = $_POST['title'];
    $description = $_POST['description'];
    $category = intval($_POST['category']);
